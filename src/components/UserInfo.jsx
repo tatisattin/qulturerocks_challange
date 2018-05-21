@@ -22,7 +22,8 @@ export default class UserInfo extends React.Component {
 
   getDataFrom(data) {
     if (data) {
-      return data.map(item => <li>{item.name}</li>);
+      const elementsList = data.map(item => <li>{item.name}</li>);
+      return elementsList.slice(0, 2);
     }
   }
 
