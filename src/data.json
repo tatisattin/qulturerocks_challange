@@ -1,0 +1,23 @@
+{
+  "name": "Fred Castro",
+  "email": "frederico@qulture.rocks",
+  "picture_url":
+    "https://uploads.codesandbox.io/uploads/user/88559db4-d2d5-4f4b-b4b8-3477cb50b617/FzA3-fredfoto.jpeg",
+  "tags": [
+    {
+      "name": "Engenharia"
+    },
+    {
+      "name": "Marketing"
+    },
+    {
+      "name": "São Paulo"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Squad Mobile"
+    }
+  ],
+  "custom_message": "Enviou feedback há dez dias."
+}
