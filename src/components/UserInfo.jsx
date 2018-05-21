@@ -55,6 +55,10 @@ export default class UserInfo extends React.Component {
       }
     }
 
+    const truncatedCustomMessage = this.state.user.custom_message
+      ? this.state.user.custom_message.substring(0, 30)
+      : "";
+
     return (
       <div>
         <img
@@ -64,7 +68,7 @@ export default class UserInfo extends React.Component {
         />
 
         <h2>{this.state.user.name}</h2>
-        <small>{this.state.user.custom_message}</small>
+        <small>{truncatedCustomMessage}</small>
 
         {info}
       </div>
